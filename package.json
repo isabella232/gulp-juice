@@ -1,5 +1,5 @@
 {
-  "name": "gulp-juice",
+  "name": "@akzhan/gulp-juice",
   "description": "process html files through juice to inline CSS",
   "version": "0.1.4",
   "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
