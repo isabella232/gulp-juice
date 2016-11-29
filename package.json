@@ -1,7 +1,7 @@
 {
   "name": "@akzhan/gulp-juice",
   "description": "process html files through juice to inline CSS",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
   "contributors": [
     "Zeb Pykosz <zeb.apy@gmail.com> (http://zeb.codes/)",
