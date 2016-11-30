@@ -1,13 +1,13 @@
 # gulp-juice
 
-[![build status](https://secure.travis-ci.org/imlucas/gulp-juice.png)](http://travis-ci.org/imlucas/gulp-juice)
+[![build status](https://secure.travis-ci.org/akzhan/gulp-juice.png)](http://travis-ci.org/akzhan/gulp-juice)
 
 Stream html files through [juice](https://www.npmjs.org/package/juice) to
 inline CSS.
 
 ## Examples
 
-```
+```js
 var juice = require('gulp-juice');
 
 gulp.task('bootloader', function(){
@@ -22,7 +22,7 @@ gulp.task('deploy', ['build', 'manifest', 'bootloader', 'publishtoS3']);
 Protip when using with a template renderer: need to pipe to dest first as
 you probably want `juice` resolving css relative to our actual build output:
 
-```
+```js
 var juice = require('gulp-juice'),
   jade = require('gulp-jade');
 
