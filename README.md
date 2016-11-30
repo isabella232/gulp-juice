@@ -1,4 +1,4 @@
-# gulp-juice
+# premailer-gulp-juice
 
 [![build status](https://secure.travis-ci.org/premailer/gulp-juice.png)](http://travis-ci.org/premailer/gulp-juice)
 
