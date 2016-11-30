@@ -8,7 +8,7 @@ inline CSS.
 ## Examples
 
 ```js
-var juice = require('gulp-juice');
+var juice = require('premailer-gulp-juice');
 
 gulp.task('bootloader', function(){
   gulp.src('./.build/bootloader.html')
@@ -23,7 +23,7 @@ Protip when using with a template renderer: need to pipe to dest first as
 you probably want `juice` resolving css relative to our actual build output:
 
 ```js
-var juice = require('gulp-juice'),
+var juice = require('premailer-gulp-juice'),
   jade = require('gulp-jade');
 
 gulp.task('bootloader', function(){
