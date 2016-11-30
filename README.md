@@ -1,6 +1,6 @@
 # gulp-juice
 
-[![build status](https://secure.travis-ci.org/akzhan/gulp-juice.png)](http://travis-ci.org/akzhan/gulp-juice)
+[![build status](https://secure.travis-ci.org/premailer/gulp-juice.png)](http://travis-ci.org/premailer/gulp-juice)
 
 Stream html files through [juice](https://www.npmjs.org/package/juice) to
 inline CSS.
