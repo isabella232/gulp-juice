@@ -1,5 +1,5 @@
 {
-  "name": "@akzhan/gulp-juice",
+  "name": "premailer-gulp-juice",
   "description": "process html files through juice to inline CSS",
   "version": "0.1.6",
   "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
@@ -8,10 +8,10 @@
     "Akzhan Abdulin <akzhan.abdulin@gmail.com> (http://akzhan.github.io/)"
   ],
   "license": "MIT",
-  "homepage": "http://github.com/akzhan/gulp-juice",
+  "homepage": "http://github.com/premailer/gulp-juice",
   "repository": {
     "type": "git",
-    "url": "git://github.com/akzhan/gulp-juice.git"
+    "url": "git://github.com/premailer/gulp-juice.git"
   },
   "scripts": {
     "test": "mocha"
