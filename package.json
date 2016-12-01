@@ -1,7 +1,7 @@
 {
   "name": "premailer-gulp-juice",
   "description": "process html files through juice to inline CSS",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
   "contributors": [
     "Zeb Pykosz <zeb.apy@gmail.com> (http://zeb.codes/)",
