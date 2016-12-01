@@ -7,6 +7,10 @@ inline CSS.
 
 ## Examples
 
+```bash
+npm install premailer-gulp-juice --save 
+```
+
 ```js
 var juice = require('premailer-gulp-juice');
 
@@ -24,11 +28,11 @@ you probably want `juice` resolving css relative to our actual build output:
 
 ```js
 var juice = require('premailer-gulp-juice'),
-  jade = require('gulp-jade');
+  pug = require('gulp-pug');
 
 gulp.task('bootloader', function(){
-  gulp.src('./app/templates/bootloader.jade')
-    .pipe(jade({pretty: true}))
+  gulp.src('./app/templates/bootloader.pug')
+    .pipe(pug({pretty: true}))
     .pipe(gulp.dest('./.build'))
     .pipe(juice())
     .pipe(gulp.dest('./.build'));
