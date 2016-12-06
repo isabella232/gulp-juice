@@ -8,7 +8,7 @@ inline CSS.
 ## Examples
 
 ```bash
-npm install premailer-gulp-juice --save 
+npm install premailer-gulp-juice --save-dev 
 ```
 
 ```js
