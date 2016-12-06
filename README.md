@@ -12,7 +12,7 @@ npm install premailer-gulp-juice --save
 ```
 
 ```js
-var juice = require('premailer-gulp-juice');
+const juice = require('premailer-gulp-juice');
 
 gulp.task('bootloader', function(){
   gulp.src('./.build/bootloader.html')
@@ -27,7 +27,7 @@ Protip when using with a template renderer: need to pipe to dest first as
 you probably want `juice` resolving css relative to our actual build output:
 
 ```js
-var juice = require('premailer-gulp-juice'),
+const juice = require('premailer-gulp-juice'),
   pug = require('gulp-pug');
 
 gulp.task('bootloader', function(){
