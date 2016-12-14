@@ -1,6 +1,6 @@
 # premailer-gulp-juice
 
-[![build status](https://secure.travis-ci.org/premailer/gulp-juice.png)](http://travis-ci.org/premailer/gulp-juice)
+[![build status](https://secure.travis-ci.org/premailer/gulp-juice.png)](http://travis-ci.org/premailer/gulp-juice) [![npm downloads](https://img.shields.io/npm/dm/premailer-gulp-juice.svg)](https://www.npmjs.com/package/premailer-gulp-juice)
 
 Stream html files through [juice](https://www.npmjs.org/package/juice) to
 inline CSS.
